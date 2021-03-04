@@ -16,4 +16,104 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+
+
+h1{
+margin-top: 0;
+}
+
+.box
+{background-color: #31363b;
+width: 300px;
+text-align: left;
+color: rgb(226, 226, 226);
+margin-left: 20px;
+margin-top: 230px;
+box-shadow: 2px 2px 3px gray;
+position: relative;
+}
+
+.obsah
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.foto
+{
+width: 300px;
+position: absolute;
+left: 0;
+top: -230px;
+padding-top: 30px;
+}
+
+.logo
+{background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+right: 40px;
+top: -25px;
+}
+
+.odkazy
+{
+margin: 0;
+padding: 0;
+}
+
+.odkazy li{
+display: inline-block;
+
+}
+
+
+.odkazy a{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(168, 168, 168);
+	font-size: 18px;
+	padding-top:10px;
+	padding-bottom:10px;	
+	
+}
+.portfolio{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid rgb(85, 85, 85);
+	border-bottom: 1px solid rgb(85, 85, 85);
+	
+}
+
+.facebook
+{width: 50%;
+	text-align: center;	
+	border-right: 1px solid rgb(85, 85, 85);
+}
+
+.twitter{
+	width:50%;
+	text-align: center;
+}
+
+.portfolio a:hover{
+	background-color: #e74c3c;
+	width: 100%;
+}
+
+.facebook a:hover{
+background-color: #3b5998;
+width: 100%;
+}
+
+.twitter a:hover{
+background-color: #1da1f2;
+width: 100%;
 }
